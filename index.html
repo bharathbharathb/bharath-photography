@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharath Photography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('images/wedding1.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header p {
+      font-size: 20px;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f9a825;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #222;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .contact p {
+      font-size: 18px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #f57c00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bharath Photography</h1>
+    <p>Capturing Life’s Beautiful Moments with Creativity & Passion</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center;">Hello! I'm Bharath, a passionate photographer with years of experience in capturing timeless moments. I specialize in wedding photography, pre-wedding shoots, baby shoots, birthday events, engagements, half saree functions, and model shoots. Every shot I take aims to tell a story and preserve your most precious memories beautifully.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="images/wedding1.jpg" alt="Wedding Photography">
+      <img src="images/prewedding1.jpg" alt="Pre-Wedding Shoot">
+      <img src="images/birthday1.jpg" alt="Birthday Events">
+      <img src="images/babyshoot1.jpg" alt="Baby Shoot">
+      <img src="images/engagement1.jpg" alt="Engagements">
+      <img src="images/modelshoot1.jpg" alt="Model Shoot">
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Wedding Photography</li>
+      <li>Pre-Wedding Shoots</li>
+      <li>Birthday & Family Events</li>
+      <li>Baby Shoot & Baby Shower</li>
+      <li>Engagements & Half Saree Functions</li>
+      <li>Model/Fashion Photography</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:bharath016025@gmail.com">bharath016025@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919739354353">+91 97393 54353</a></p>
+    <p>Instagram: Coming Soon!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bharath Photography. Designed with ❤️ by Bharath</p>
+  </footer>
+
+</body>
+</html>
